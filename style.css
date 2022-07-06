@@ -1,0 +1,132 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    color: white;
+    font-size: larger;
+}
+
+.flood-img {
+    height: 800px;
+    width: 1400px;
+    filter: brightness(65%);
+}
+
+.small-text {
+    font-size: 80%;
+
+}
+
+.donate-button {
+    background-color: crimson;
+    border-radius: 7px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.lets-align {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 90px;
+}
+
+.money {
+    background-color: white;
+    width: 70px;
+    padding: 20px;
+    color: gray;
+    filter: brightness(90%);
+}
+
+.lets-display {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#food-color {
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 30px;
+    filter: saturate(30%);
+}
+
+#shelter-color {
+    background-color: beige;
+    padding: 20px;
+    margin: 30px;
+}
+
+#education-color {
+    background-color: yellow;
+    padding: 20px;
+    margin: 30px;
+    filter: saturate(30%);
+}
+
+#make-red {
+    background-color: bisque;
+    width: 70px;
+    padding: 20px;
+    color: red;
+    border-radius: 5px;
+    filter: brightness(90%);
+    border: 2px solid red;
+}
+
+.amount {
+    text-align: center;
+    color: gray;
+    font-weight: 100;
+}
+
+.underline {
+    text-decoration: underline;
+    color: grey;
+}
+
+.box-paragraph {
+    color: gray;
+}
+
+.footer-rebuild {
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    font-weight: 100;
+}
+
+#color-change {
+    color: crimson;
+}
+
+.change-display {
+    display: flex;
+    margin: 80px;
+}
+
+.change-image {
+    height: 350px;
+    width: 450px;
+}
+
+.change-margin {
+    margin: 50px;
+}
