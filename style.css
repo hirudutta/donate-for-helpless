@@ -96,24 +96,20 @@ body {
     font-weight: 100;
 }
 
-.underline {
-    text-decoration: underline;
-    color: grey;
-}
-
 .box-paragraph {
     color: gray;
 }
 
-.footer-rebuild {
-    text-align: center;
+.rebuild {
     background-color: black;
-    background-size: cover;
-    color: white;
-    font-weight: 100;
+    text-align: center;
+    width: 120%;
 }
 
 #color-change {
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
     color: crimson;
 }
 
@@ -129,4 +125,13 @@ body {
 
 .change-margin {
     margin: 50px;
+}
+
+.paragraph {
+    color: white;
+}
+
+.horizantal {
+    width: 60%;
+    color: gray;
 }
